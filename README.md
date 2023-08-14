@@ -1,29 +1,11 @@
-# exercicio_01
+/* EXERCÍCIO 1 (0.5 pontos a serem adicionados na avaliação 1) 
 
-This template should help get you started developing with Vue 3 in Vite.
+     - Faça um formulário com 4 campos: nome, cpf, email e senha e um botão de salvar
+     - O botão de salvar só pode ser habilitado com as seguintes condições:
+     -  1. todos os campos preenchidos
+     -  2. o campo senha deve ter no mínimo 8 caracteres contendo:
+     -  2.1 no mínimo 1 maiúscula, 1 minúscula, 1 número e 1 carácter especial.
+     -  2.2 deve haver uma lista indicando que cada regra da senha foi cumprido ou não.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+    dica: utilize regex ou não.
+    */
